@@ -46,6 +46,7 @@ h1::after {
   border-radius: 2px;
 }
 
+/* Generate Button */
 #generate-btn {
   background: linear-gradient(45deg, #667eea, #764ba2);
   color: white;
@@ -72,7 +73,8 @@ h1::after {
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minimax(130px, 1fr));
 }
-
+  
+/* Color Boxes */
 .color-box {
   border-radius: 10px;
   overflow: hidden;
@@ -113,6 +115,7 @@ h1::after {
   color: #667eea;
 }
 
+/* Media Queries */
 @media (max-width: 768px) {
   .palette-container {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
