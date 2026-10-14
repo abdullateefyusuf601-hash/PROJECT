@@ -1,4 +1,4 @@
-/* Basic Resett */
+/* Basic Reset */
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 
 * {
@@ -46,7 +46,6 @@ h1::after {
   border-radius: 2px;
 }
 
-/* Generate Button */
 #generate-btn {
   background: linear-gradient(45deg, #667eea, #764ba2);
   color: white;
@@ -71,10 +70,9 @@ h1::after {
 .palette-container {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minimax(130px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
 }
 
-/* Color Boxes */
 .color-box {
   border-radius: 10px;
   overflow: hidden;
@@ -115,7 +113,6 @@ h1::after {
   color: #667eea;
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
   .palette-container {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
