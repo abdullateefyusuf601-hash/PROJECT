@@ -20,4 +20,4 @@ const blogContainer = document.getElementById("blog-container");
 const twitterContainer = document.getElementById("twitter-container");
 const reposContainer = document.getElementById("repos-container");
 
-searchBtn.addEventListener("cli")
+searchBtn.addEventListener("cli") 
